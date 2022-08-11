@@ -7,7 +7,8 @@
 var factory=new appFactory();
 
 var overview="<p class=\'overview\'><font size=\'+3\'>Our faith</font></p>"
-+ "<p class=\'overview\'>Jesus Christ is the central theme of our faith</p>";
++ "<p class=\'overview\'>Jesus Christ is the central theme of our faith</p>"
++ "<p align=\'center\'><img src=\'images/faith2.png\' class=\'wideimg\' alt=\'Our faith\' /></p>";
 
 var content="<div class=\'content\'>"
         +"<p>Every one believes in something, and that becomes the foundation of their faith. It is "
@@ -70,7 +71,7 @@ var content="<div class=\'content\'>"
 + "that where I am, there ye may be also.</i>'</p>"
 + "<p>Things are coming to an end, the signs are very clear, Listen close my friend, there is still time to repent, "
 + "because things are coming to an end.</p>"
-+ "<p>One of the days, Great Master will come, Jesus Christ. And the Rapture will take place. The dead in christ "
++ "<p>One of these days, Great Master will come, Jesus Christ. And the Rapture will take place. The dead in christ "
 + "shall raise, we shall be transformed and caught up to meet the Lord in the air.</p>"
 + "<p class=\'overview\'><big>'Surely I come quickly' | 'Amen. Even so, come, Lord Jesus.'</big></p>"
 

@@ -35,7 +35,7 @@ class appFactory {
         + "<p><a href=\'contact.html\' target=\'_self\'>Contact us</a></p><hr/>"
         + "<div align=\'right\'><a href=\'javascript:closeAbout()\'>close</div></div>"
         + "</td>"
-        + "<td align=\'right\'><a href=\'javascript:showAbout()\'>info</a>"
+        + "<td align=\'right\'><a href=\'javascript:showAbout()\'>contact</a>"
         
         + "</td>"
         + "<td align=\'right\' width=\'15\'></td></tr></table>"
@@ -216,8 +216,11 @@ class appFactory {
      */
     generatePage() {
         
-        var page=this.getNav()+this.getDrawer()+this.getLoader()+this.getBoard()
-                +this.getOverview()+this.getContent()+this.getFinal()+this.getFooter();
+        var contain="<div id=\'thispage\'>";
+        var fin="</div>";
+        
+        var page=this.getNav()+this.getDrawer()+this.getLoader()+contain+this.getBoard()
+                +this.getOverview()+this.getContent()+this.getFinal()+this.getFooter()+fin;
         
         return page;
         
@@ -235,20 +238,59 @@ class appFactory {
         
         random*=100;
         
-        if(random<=20) {
-            style="board";
+        if(random<=10) {
+            
+            var bgi=Math.random();
+            
+            if(bgi<=0.5) {
+                style="board";
+            } else {
+                style="board123";
+            }
+            
         }
-        if(random<=40 && random>20) {
+        if(random<=20 && random>10) {
             style="boarda";
         }
-        if(random<=60 && random>40) {
+        if(random<=30 && random>20) {
             style="boardb";
         }
-        if(random<=80 && random>60) {
+        if(random<=40 && random>30) {
             style="boardc";
         }
-        if(random<=100 && random>80) {
+        if(random<=50 && random>40) {
             style="boardd";
+        }
+        if(random<=60 && random>50) {
+            style="boarde";
+        }
+        if(random<=70 && random>60) {
+            style="boardf";
+        }
+        if(random<=80 && random>70) {
+            style="boardg";
+        }
+        if(random<=90 && random>80) {
+            
+            var bgi=Math.random();
+            
+            if(bgi<=0.5) {
+                style="boardh";
+            } else {
+                style="boardi";
+            }
+            
+        }
+        if(random<=100 && random>90) {
+            
+            var bgi=Math.random();
+            
+            if(bgi<=0.5) {
+                style="boardj";
+            } else {
+                style="boardk";
+            }
+            
         }
         
         //console.log(random+" : "+style);

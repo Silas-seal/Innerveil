@@ -37,7 +37,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     font-family: Calibri;
     font-size: 29px;
     color: maroon;
-    background: white;
+    background-image: url(images/logo2.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
     top: 0px;
     position: fixed;
     width: 99%;
@@ -49,7 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     font-family: Calibri;
     font-size: 24px;
     color: white;
-    background: maroon;
+    background: linear-gradient(to right, maroon,skyblue);
     padding: 0px;
     position: fixed;
     top: 0px;
@@ -73,7 +77,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     background: maroon;
     border-radius: 0px 7px 0px 7px;
     border-width: 0px;
-    width: 90%;
+    width: 100%;
     transition: background 1s;
 }
 
@@ -81,7 +85,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     font-family: Calibri;
     font-size: 24px;
     color: white;
-    background: linear-gradient(to right, dodgerblue,purple,orangered);
+    background: linear-gradient(to right, skyblue,maroon);
     padding: 12px;
     text-align: center;
     width: 310px;
@@ -89,7 +93,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     right: 0px;
     top: 0px;
     box-shadow: 1px 0px 17px 3px dodgerblue;
-    
+    border-radius: 17px 0px 0px 17px;
 }
 
 .navbutton:hover {
@@ -109,25 +113,30 @@ a {
     background: white;
     outline-style: ridge;
     outline-color: maroon;
-    outline-width: 1px;
+    outline-width: 3px;
     transition: background 1s;
+    text-decoration: none;
+    border-radius: 5%;
 }
 
 a:hover {
     color: white;
     background: maroon;
+    box-shadow: 3px 4px 15px 5px lightslategrey;
 }
 
 body {
     padding: 0%;
-    background: url(images/charbody.png) center 10% repeat white fixed;
+    background: url(images/charbody.png) center repeat white fixed;
+    background-size: 13%,13%;
     font-family: Calibri;
     font-size: 24px;
     color: black;
 }
 
 .overview {
-    background-color: white;
+    background: url(images/penbody.png) center repeat white;
+    background-size: 3%,3%;
     font-family: Calibri;
     font-size: 24px;
     color: maroon;
@@ -149,12 +158,13 @@ button {
     font-family: Calibri;
     font-size: 24px;
     color: maroon;
-    transition: border-color 0.5s;
+    transition: border-color 1s;
 }
 
 button:hover {
     border-color: green;
     color: green;
+    box-shadow: 3px 4px 15px 5px lightslategrey;
 }
 
 .mrn {
@@ -244,6 +254,119 @@ button:hover {
     transition: background 1s;
 }
 
+.boarde {
+    background-image: url(images/sky1.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardf {
+    background-image: url(images/sky2.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardg {
+    background-image: url(images/sky3.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardh {
+    background-image: url(images/sky4.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardi {
+    background-image: url(images/sky5.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardj {
+    background-image: url(images/sky6.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.boardk {
+    background-image: url(images/sky7.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+.board123 {
+    background-image: url(images/skbg.jpg);
+    background-size: 100%,100%;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    vertical-align: central;
+    height: 300px;
+    transition: background 1s;
+}
+
 .board2 {
     background-image: url(images/logo2.png);
     background-color: maroon;
@@ -296,12 +419,13 @@ button:hover {
 }
 
 .titling {
-    background: linear-gradient(to right, orangered,dodgerblue,maroon);
+    background: linear-gradient(to right, blue,maroon,blue);
     font-family: Calibri;
     font-size: 34px;
     color: aliceblue;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
     text-align: center;
+    padding: 10px;
 }
 
 /*Footer styles*/
@@ -360,4 +484,164 @@ button:hover {
     text-align: center;
     width: 100%;
     color: aliceblue;
+}
+
+.link1 {
+    float: left;
+    background: blue;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px blue;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link1:hover {
+    box-shadow: 0px 0px 34px 12px blue;
+}
+
+.link2 {
+    float: left;
+    background: green;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px green;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link2:hover {
+    box-shadow: 0px 0px 34px 12px green;
+}
+
+.link3 {
+    float: left;
+    background: purple;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px purple;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link3:hover {
+    box-shadow: 0px 0px 34px 12px purple;
+}
+
+.link4 {
+    float: left;
+    background: red;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px red;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link4:hover {
+    box-shadow: 0px 0px 34px 12px red;
+}
+
+.link5 {
+    float: left;
+    background: deepskyblue;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px deepskyblue;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link5:hover {
+    box-shadow: 0px 0px 34px 12px deepskyblue;
+}
+
+.link6 {
+    float: left;
+    background: deeppink;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px deeppink;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link6:hover {
+    box-shadow: 0px 0px 34px 12px deeppink;
+}
+
+.link7 {
+    float: left;
+    background: slateblue;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px slateblue;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link7:hover {
+    box-shadow: 0px 0px 34px 12px slateblue;
+}
+
+.link8 {
+    float: left;
+    background: chocolate;
+    padding: 47px;
+    outline-width: 7px;
+    outline-style: dashed;
+    outline-color: white;
+    box-shadow: 1px 1px 12px 5px chocolate;
+    color: white;
+    border-radius: 5%;
+    font-size: 27px;
+    transition: box-shadow 0.5s;
+    width: 240px;
+    text-align: center;
+}
+
+.link8:hover {
+    box-shadow: 0px 0px 34px 12px chocolate;
 }

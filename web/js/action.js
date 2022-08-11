@@ -15,10 +15,15 @@ jQuery(document).ready(function(){
         showNavMenu();
     });
     
-    /*jQuery(".content").scroll(function(){
+    jQuery(document).scroll(function() {
         closeNavMenu();
         closeAbout();
-    });*/
+    });
+    
+    jQuery("#thispage").on("click", function(){
+        closeNavMenu();
+        closeAbout();
+    });
     
     //Actions to the navigation menu buttons
     
@@ -56,6 +61,31 @@ jQuery(document).ready(function(){
         document.location="gallery.html";
     });
     
+    //QLinks
+    jQuery(".link1").click(function(){
+        document.location="dailybread.html";
+    });
+    jQuery(".link2").click(function(){
+        document.location="livestream.html";
+    });
+    jQuery(".link3").click(function(){
+        document.location="sermons.html";
+    });
+    jQuery(".link4").click(function(){
+        document.location="music.html";
+    });
+    jQuery(".link5").click(function(){
+        document.location="outreach.html";
+    });
+    jQuery(".link6").click(function(){
+        document.location="newsletters.html";
+    });
+    jQuery(".link7").click(function(){
+        document.location="gallery.html";
+    });
+    jQuery(".link8").click(function(){
+        document.location="about.html";
+    });
 });
 
 function showNavMenu() {

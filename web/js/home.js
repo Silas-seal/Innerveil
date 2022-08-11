@@ -10,21 +10,36 @@ var overview="<div class=\'overview\'>"
 
         + "<p><font size=\'+3\'>Welcome</font></p>"
 
-        +"<p>Meet and have fellowship with the Lord Jesus Christ. In praising,\n\
-worshipping, thanks giving, feeding on the Word and casting all cares upon Him\n\
-, 'For He cares for you'.</p>"
+        +"<p>'Friendship with Jesus, Fellowship divine.'</p>"
+/*In praising,\n\
+worshipping, thanks giving, feeding on the Word and casting all cares upon Him
+, 'For He cares for you'.*/+"</p>"
+
++ "<center><table border\'0\' cellpadding=\'5\' cellspacing=\'5\' width=\'80%\'><tr><td align=\'center\'>"
++ "<table class=\'link1\' border=\'0\'><tr><td>Daily bread</td></tr></table>"
++ "<table class=\'link2\' border=\'0\'><tr><td>Live stream</td></tr></table>"
++ "<table class=\'link3\' border=\'0\'><tr><td>Sermons</td></tr></table>"
++ "<table class=\'link4\' border=\'0\'><tr><td>Music</td></tr></table>"
++ "<table class=\'link5\' border=\'0\'><tr><td>Outreach</td></tr></table>"
++ "<table class=\'link6\' border=\'0\'><tr><td>News letters</td></tr></table>"
++ "<table class=\'link7\' border=\'0\'><tr><td>Gallery</td></tr></table>"
++ "<table class=\'link8\' border=\'0\'><tr><td>About us</td></tr></table>"
++ "</td></tr></table></center>"
+        
+        + "<table border\'0\' width=\'100%\'><tr><td height=\'51\'></td></tr></table>"
         
         + "</div>";
 
-var content="<div class=\'content\'><table border=\'0\'><tr><td>"
+var content="<div class=\'content\'><center><table border=\'0\' width=\'80%\'><tr><td align=\'center\' width=\'97%\'>"
 + "<table border=\'0\' class=\'container\'><tr><td>"
 + "<img src=\'images/christjesus.jpg\' class=\'jesus\' alt=\'Jesus\' /></td></tr></table>"
-+ "<table border=\'0\' class=\'container\'><tr><td align=\'center\' valign=\'center\' height=\'250\'>"
++ "<table border=\'0\' class=\'container\' width=\'59%\'><tr><td align=\'center\' valign=\'center\' height=\'250\'>"
 + "Jesus is Lord, God, King, Healer, ...... He's all in all. He's He that was, is and is to come. "
 + "Jehovah of the old testament, Jesus of the new. <p/>Hebrews. 13:8 '<i>Jesus Christ the same yesterday, today "
 + "and forever.</i>'"
++ "<p><a href=\'faith.html\' target=\'_self\'>Our faith</a></p>"
 + "</td></tr></table>"
-+ "</td></tr></table>"
++ "</td></tr></table></center>"
 
 + "<p class=\'titling\'>A man sent from God</p>"
 + "<p>As John the baptist was sent to forerun the first coming of Christ, it is promised even in these last days, "
@@ -44,7 +59,7 @@ var content="<div class=\'content\'><table border=\'0\'><tr><td>"
 + "<p align=\'center\'><img src=\'images/pillar.png\' class=\'defimg\' alt=\'brotherbranham\' /></p>"
 + "<p class=\'overview\'>We call him 'Our precious brother'.</p>"
 
-+ "<p align=\'center\'><a href=\'prophet.html\' target=\'_self\'><button>Read more</button></a></p>"
++ "<p align=\'center\'><a href=\'prophet.html\' target=\'_self\'>Read more</a></p>"
 
 + "<p class=\'titling\'>Church services</p>"
 + "<p class=\'overview\'>Join our services, at church Or stream live on your device.</p>"
@@ -53,13 +68,13 @@ var content="<div class=\'content\'><table border=\'0\'><tr><td>"
 + "out of the mouth of God</i>.'</p>"
 
 + "<p align=\'center\'>"
-+ "<a href=\'sermons.html\' target=\'_self\'><button>Go to sermons</button></a>"
-+ "<a href=\'livestream.html\' target=\'_self\'><button>Start streaming</button></a></p>"
++ "<a href=\'sermons.html\' target=\'_self\'>Go to sermons</a>"
++ "<a href=\'livestream.html\' target=\'_self\'>Start streaming</a></p>"
 
 + "<p class=\'titling\'>Music</p>"
 + "<p align=\'center\'>A collection of christian songs, hymns and instrumentals to listen and download.</p>"
 + "<p align=\'center\'><img src=\'images/music1.png\' class=\'defimg\' alt=\'Music\' /></p>"
-+ "<p align=\'center\'><a href=\'music.html\' target=\'_self\'><button>Go to music</button></a></p>"
++ "<p align=\'center\'><a href=\'music.html\' target=\'_self\'>Go to music</a></p>"
 
 + "<p class=\'titling\'>Meet the Pastors</p><table border=\'0\'><tr><td>"
 
@@ -80,7 +95,7 @@ var content="<div class=\'content\'><table border=\'0\'><tr><td>"
 + "<p class=\'titling\'>Church program</p>"
 + "<p align=\'center\'><img src=\'images/church.jpg\' class=\'wideimg\' alt=\'Church\' /></p>"
 
-+ "<table border=\'0\'><tr><td>"
++ "<center><table border=\'0\'><tr><td>"
 + "<table border=\'0\' class=\'container\'><tr><td align\'center\'>"
 + "<p align=\'center\'><img src=\'images/sundaymorn.jpg\' class=\'defimg\' alt=\'Sunday Morning Service\' /></p>"
 + "<p align=\'center\'>Sunday - Morning Service</p><p align=\'center\'>09:00AM - 01:00PM</p>"
@@ -97,8 +112,9 @@ var content="<div class=\'content\'><table border=\'0\'><tr><td>"
 + "<p align=\'center\'><img src=\'images/wedservice.jpg\' class=\'defimg\' alt=\'Wednesday Service\' /></p>"
 + "<p align=\'center\'>Wednesday Service</p><p align=\'center\'>04:30PM - 06:30PM</p>"
 
-+ "</td></tr></table>"
++ "</td></tr></table></td></tr></table>"
 
++ "<table border=\'0\'><tr><td>"
 + "<table border=\'0\' class=\'container\'><tr><td align\'center\'>"
 + "<p align=\'center\'><img src=\'images/prayer.jpg\' class=\'defimg\' alt=\'Prayer and fasting\' /></p>"
 + "<p align=\'center\'>Prayer and fasting</p><p align=\'center\'>Every last saturday of month</p>"
@@ -112,12 +128,12 @@ var content="<div class=\'content\'><table border=\'0\'><tr><td>"
 + "</td></tr></table>"
 
 + "<table border=\'0\' class=\'container\'><tr><td align\'center\'>"
-+ "<p align=\'center\'><img src=\'images/youthmeet.jpg\' class=\'defimg\' alt=\'Youth meeting\' /></p>"
++ "<p align=\'center\'><img src=\'images/footerbg1.png\' class=\'defimg\' alt=\'Youth meeting\' /></p>"
 + "<p align=\'center\'>Youth meetings</p><p align=\'center\'>Middle saturday every month<br/>[10:00AM - 04:00PM]</p>"
 
 + "</td></tr></table>"
 
-+ "</td></tr></table>"
++ "</td></tr></table></center>"
 
 + "</div>";
 
